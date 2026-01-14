@@ -19,7 +19,7 @@ This is a functional RESTful API developed using Java and the Spring Framework. 
 
 ### 1. Find Product By Id (GET)
 - **URL:** `/api/v1/products/{id}` 
-- **Description**: Fetches a list of specific product.
+- **Description**: Fetches specific product.
 
 ### 2. Update an Existing Product (PUT)
 - **URL:** `/api/v1/products/{id}`
