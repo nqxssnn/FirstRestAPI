@@ -10,7 +10,7 @@ This is a functional RESTful API developed using Java and the Spring Framework. 
 - **Swagger/Postman**
 
 ## ⚙️ How to Run
-1. Clone: `git clone https://github.com/nqxssnn/FirstRestAP.git`
+1. Clone: `git clone https://github.com/nqxssnn/FirstRestAPI.git`
 2. Navigate to the project directory:.
 3. Run the FirstRestApiApplication.java file from your IDE (IntelliJ IDEA).
 4. Access points: `http://localhost:8080` and Swagger `http://localhost:8080/swagger-ui/index.html#/`
