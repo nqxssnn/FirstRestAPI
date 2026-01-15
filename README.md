@@ -20,6 +20,7 @@ This is a functional RESTful API developed using Java and the Spring Framework. 
 ### 1. Find Product By Id (GET)
 - **URL:** `/api/v1/products/{id}` 
 - **Description**: Fetches specific product.
+![Controller](images/GetProductById.png)
 
 ### 2. Update an Existing Product (PUT)
 - **URL:** `/api/v1/products/{id}`
@@ -27,19 +28,26 @@ This is a functional RESTful API developed using Java and the Spring Framework. 
 - **Body:** `{
   "name": "Modified Product"
 }`
+![Controller](images/UpdateProduct.png)
 
 ### 3. Get All Products (GET)
 - **URL:** `/api/v1/products` 
 - **Description**: Fetches a list of all products.
+![Controller](images/GetAllProducts.png)
 
 ### 4. Create a New Product (POST)
 - **URL:** `/api/v1/products`
 - **Body:** `{
   "name": "New Product"
 }`
+![Controller](images/CreateProduct.png)
 
 ### 4. Delete a Product (DELETE)
 - **URL:** `/api/v1/products/{id}`
+![Controller](images/DeleteProduct.png)
+
+### Database Query Execution
+![DB](images/DB1.png)
 
 ## 📊 Database Verification
 URL: `http://localhost:8080/console`
@@ -47,7 +55,3 @@ URL: `http://localhost:8080/console`
 - **User:** `sa`
 - **Password:** (leave empty)
 
-# Preview
-
-![Controller](images/controller.png)
-![Db](images/db.png)
